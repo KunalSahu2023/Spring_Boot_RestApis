@@ -3,34 +3,51 @@ This project is a Spring Boot–based RESTful web application designed to provid
 ⚙️ Features : 
 
 RESTful API development using Spring Boot
+
 CRUD operations using HTTP methods
+
 JSON-based request and response handling
+
 Database integration using JPA/Hibernate
+
 API testing using Postman
 
 🧰 Tools & Technologies
+
 🔹 Backend
+
 Java
+
 Spring Boot
+
 Spring Web (REST API)
+
 Spring Data JPA
+
 Hibernate
 
 🔹 Database
+
 MySQL / PostgreSQL / H2 (for testing)
 
 🔹 Build & Dependency Management
+
 Maven
 
 🔹 Testing & API Tools
+
 Postman
 
 🔹 Development Tools
+
 IntelliJ IDEA / Eclipse / VS Code
+
 Git & GitHub
 
 🔹 Server
+
 Embedded Tomcat Server
+
 
 GET    /api/employees
 
