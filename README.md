@@ -1,6 +1,7 @@
 This project is a Spring Boot–based RESTful web application designed to provide backend services through REST APIs. It follows a layered architecture and supports standard HTTP operations such as GET, POST, PUT, and DELETE.
 
-⚙️ Features
+⚙️ Features : 
+
 RESTful API development using Spring Boot
 CRUD operations using HTTP methods
 JSON-based request and response handling
