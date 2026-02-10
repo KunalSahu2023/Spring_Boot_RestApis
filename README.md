@@ -33,6 +33,9 @@ Git & GitHub
 Embedded Tomcat Server
 
 GET    /api/employees
+
 POST   /api/employees
+
 PUT    /api/employees/{id}
+
 DELETE /api/employees/{id}
