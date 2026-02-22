@@ -1,17 +1,17 @@
-package com.indiabulls.springbootapi.entity;
+package com.javaDeveloper.springbootapi.payload;
 
 import java.time.LocalDateTime;
 
-public class Response {
+public class ApiResponse <T> {
     private int code;
     private String message;
-    private City data;
+    private T data;   // ✅ GENERIC TYPE
     private LocalDateTime timestamp;
 
-    public Response() {
+    public ApiResponse() {
     }
 
-    public Response(int code, String message, City data, LocalDateTime timestamp) {
+    public ApiResponse(int code, String message, T data, LocalDateTime timestamp) {
         this.code = code;
         this.message = message;
         this.data = data;
@@ -34,11 +34,11 @@ public class Response {
         this.message = message;
     }
 
-    public City getData() {
+    public T getData() {        // ✅ GENERIC
         return data;
     }
 
-    public void setData(City data) {
+    public void setData(T data) {   // ✅ GENERIC
         this.data = data;
     }
 
@@ -49,4 +49,5 @@ public class Response {
     public void setTimestamp(LocalDateTime timestamp) {
         this.timestamp = timestamp;
     }
+
 }
